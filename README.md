@@ -13,11 +13,13 @@ Skills are modular, self-contained packages that extend an AI Agent's capabiliti
 
 ## How to use
 
-If you are using an AI agent that supports `.skill` files:
-1. Download the `videojs-skill.skill` package from the Releases or build it yourself using the Skill Creator.
-2. Load it into your agent's workspace or skill registry.
+Si usas un gestor de skills soportado mediante `npx`, puedes instalar esta skill directamente desde este repositorio ejecutando el siguiente comando:
 
-Alternatively, the agent can be pointed directly to the markdown files in the `references/` directory.
+```bash
+npx skills add https://github.com/danraf77/videojs-skill --skill videojs-skill
+```
+
+Si prefieres usar los archivos directamente, puedes descargar el repositorio o apuntar a tu agente a los archivos de la carpeta `references/`.
 
 ## Building the .skill package
 
